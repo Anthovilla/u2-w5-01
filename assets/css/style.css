@@ -200,7 +200,7 @@ footer a {
     }
 
     #img1 img {
-        max-width: 14%;
+        max-width: 5.6rem;
         border: 3px solid #03A9F4
     }
 
@@ -220,4 +220,23 @@ footer a {
         font-size: 17px;
     }
     
+}
+@media screen and (min-width: 717px){
+    h1 {
+        font-size: 5.5rem;
+    }
+    h1 + p {
+        font-size: 1.9rem;
+    }
+    article > h2 {
+    font-weight: 900;
+    font-size: 17px;
+    }
+    table {
+        margin: 8% 14%;
+        width: 480px;
+    }
+    p {
+        font-size: 18px;
+    }
 }
